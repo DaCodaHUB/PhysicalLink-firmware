@@ -1,6 +1,6 @@
 {
   "name": "PhysicalLink",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Beta: register 1-16 numeric sensors on an ESP32 and visualize readings in the PhysicalLink Android dashboard over BLE.",
   "keywords": ["ble", "esp32", "sensors", "dashboard", "physicallink"],
   "authors": [{ "name": "Dang Le", "maintainer": true }],
