@@ -54,6 +54,7 @@ jobs:
       - name: Verify package and generate checksum
         shell: bash
         run: |
+          python tools/verify_package.py "dist/PhysicalLink-${VERSION}.tar.gz"
           tar -tzf "dist/PhysicalLink-${VERSION}.tar.gz" > dist/contents.txt
           grep -q 'library.json' dist/contents.txt
           grep -q 'PhysicalLink.h' dist/contents.txt
